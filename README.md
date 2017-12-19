@@ -33,3 +33,22 @@ Basic authentication is a simple authentication scheme built into the HTTP proto
                         }
                     }
 		}
+		
+## JavaScript
+
+		var UserName="myUserName";
+		var password="myPassword";
+
+		$.ajax({
+			type: 'POST',
+			url: 'myLink',
+			headers: {
+				"Authorization": "Basic " + btoa(UserName+":"+password);
+			},
+			success : function(data) {
+				//Success block  
+			},
+			error: function (xhr,ajaxOptions,throwError){
+				//Error block 
+			},
+		});		
