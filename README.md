@@ -34,7 +34,7 @@ Basic authentication is a simple authentication scheme built into the HTTP proto
                     }
 		}
 		
-## JavaScript
+## JavaScript Example
 
 		var UserName="myUserName";
 		var password="myPassword";
