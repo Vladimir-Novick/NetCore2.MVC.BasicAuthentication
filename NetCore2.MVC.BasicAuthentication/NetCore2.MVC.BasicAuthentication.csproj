@@ -1,12 +1,18 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Authors>Vladimir Novick</Authors>
+    <Copyright>2017-2018 by Vladimir Novick http://www.linkedin.com/in/vladimirnovick</Copyright>
+    <PackageProjectUrl>https://github.com/Vladimir-Novick/NetCore2.MVC.BasicAuthentication</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Vladimir-Novick/NetCore2.MVC.BasicAuthentication/blob/master/LICENSE</PackageLicenseUrl>
+    <Version>1.1.0</Version>
+    <Description>Simple NetCore2 MVC Web Application with basic authentication</Description>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.3" />
-    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
   </ItemGroup>
 
   <ItemGroup>
